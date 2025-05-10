@@ -25,4 +25,5 @@ jobs:
       uses: docker/build-push-action@v6
       with:
         push: true
+        tags: chenzhiying5937/yourpipeline:${{ github.sha }}
         
